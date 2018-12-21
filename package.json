@@ -1,0 +1,24 @@
+{
+  "name": "redi-os",
+  "version": "1.0.0",
+  "description": "Event based system load",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReDiGermany/redi-os.git"
+  },
+  "author": "ReDiGermany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReDiGermany/redi-os/issues"
+  },
+  "homepage": "https://github.com/ReDiGermany/redi-os#readme",
+  "dependencies": {
+    "events": "^3.0.0",
+    "os": "^0.1.1",
+    "os-utils": "0.0.14"
+  }
+}

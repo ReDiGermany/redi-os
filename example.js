@@ -1,0 +1,8 @@
+const os = require('./index.js')
+// const os = require('redi-os')
+// os.cpu( data => { console.log("cpu",data) })
+// os.ram( data => { console.log("ram",data) })
+// os.load( data => { console.log("load",data) })
+// os.tick( data => { console.log("tick",data) })
+os.change( data => { console.log("change",data) })
+os.init({timer:1})
